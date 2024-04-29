@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donna WIFI VENDO 5G</title>
+    <style>
+        .container {
+            position: relative;
+            min-height: 100vh;
+        }
+        .footer {
+            position: fixed;
+            size: 1px;
+            bottom: 0;
+            left: 0;
+            background-color: #faf8f8;
+            color: #060606;
+            padding: 5px;
+            width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="img/wemb.png" alt="WiFi Icon" class="wifi-icon">
+        <h1>1Click Piso Wifi</h1>
+        <br>
+        <h4>HOW TO USE</h4>
+        <br>
+        <h5>1. Press INSERT COIN</h5>
+        <h5>2. Maghulog ng barya</h5>
+        <h5>3. Press DONE PAYING. Enjoy!</h5>
+        <br>
+        <div id="time-left"></div>
+        <div id="status">Status: <span id="status-text" class="status-disconnected">DISCONNECTED</span></div>
+        <button id="insert-coin-btn" onclick="insertCoin()"> <b>INSERT COIN </b></button>
+        <div id="selected-coins"></div>
+        <br>
+        <div class="comment-box">
+            <div class="left-comment">Voucher</div>
+            <input type="text" id="voucher-input">
+            <div class="right-comment">OK  </div>
+        </div>
+        <br>   
+
+        <h2>Rates</h2>
+        <div class="rate-table">
+          <table>
+              <thead>
+                  <tr>
+                      <th>Amount</th>
+                      <th>Credits</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>10.00</td>
+                      <td>4Hr</td>
+                  </tr>
+                  <tr>
+                      <td>20.00</td>
+                      <td>1Day(s)</td>
+                  </tr>
+                  <tr>
+                      <td>50.00</td>
+                      <td>3Day(s)</td>
+                  </tr>
+                  <tr>
+                      <td>450.00</td>
+                      <td>30Day(s)</td>
+                      
+                  </tr>
+              </tbody>
+          </table>
+        </div>
+    </div>
+    <div class="footer">
+        WEMB @2024
+    </div>
+    <script>
+    </script>
+</body>
+</html>

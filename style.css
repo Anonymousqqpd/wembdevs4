@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#wifi-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+#status {
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  color: black;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#status-text {
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.status-disconnected {
+  background-color: red;
+  color: white;
+}
+
+.status-active {
+  background-color: #1ce88a;
+  color: white;
+}
+
+#insert-coin-btn {
+  padding: 10px 15px;
+  background-color: #1ce88a;
+  border-radius: 15px;
+  color: white;
+  border: none;
+}
+
+.insert-coin-btn-clicked {
+  background-color: rgb(110, 125, 110);
+  color: white;
+}
+
+.message {
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+.coin-selection {
+  margin: auto;
+}
+
+.coin-button {
+  margin: 5px;
+}
+
+.confirm-button {
+  margin-top: 10px;
+}
+
+#selected-coins {
+  margin-top: 10px;
+}
+
+#selected-coins div {
+  background-color: #0b0b0b;
+  color: azure;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#time-left {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: none;
+}
+
+.comment-box {
+  border: 0px solid #ccc;
+  padding: 0px;
+  display: flex;
+  border-radius: 15px;
+  align-items: 0;
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.left-comment {
+  flex: 1;
+  background-color: #ccc;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 5px;
+}
+
+.right-comment {
+  background-color: rgb(20, 20, 20);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15pt;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+.comment-text {
+  margin: 0;
+  
+}
+
+h2 {
+  background-color: #07d5f9;
+  width: 317px;
+  padding: 5px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-left: 50px;
+}
+
+h4 {
+  size: 1px;
+  font-weight: normal;
+}
+
+h5 {
+  size: solid 5px;
+  font-weight: normal;
+}
+
+.rate-table {
+  margin-left: 50px;
+  width: 55%;
+  background-color: #07d5f9;
+  border-radius: 15px;
+}
+
+.rate-table th,
+.rate-table td {
+  padding: 10px 50px;
+  text-align: center;
+  border: 1px solid #07d5f9;
+  background-color: #07d5f9;
+}
+
+.rate-table thead {
+  background-color: #07d5f9;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
